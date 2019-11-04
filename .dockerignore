@@ -1,9 +1,0 @@
-*
-!*.js
-!public
-!src
-!.babelrc
-!webpack.config.js
-!server
-!package.json
-!package-lock.json
