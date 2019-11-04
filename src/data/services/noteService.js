@@ -47,7 +47,7 @@ export const noteStore = (state = initialState, action) => {
             const newvkItems = action.payload && action.payload.data && action.payload.data.length > 0 ? action.payload.data : [];
             return state
                 .set('isLoading', false)
-                .set('vkItems', vkItems);
+                .set('vkItems', vkTestData);
 
         case GET_VK_DATA_FAILURE:
             return state
